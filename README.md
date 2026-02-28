@@ -36,81 +36,122 @@ me.say_hi()
 
 ---
 
-## 🚀 Featured Project
+## 🚀 My Projects
 
 <div align="center">
 
 <a href="https://github.com/ArnaVkk/Food-Recipe-Generator">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=Food-Recipe-Generator&theme=tokyonight&hide_border=true&border_radius=15" />
 </a>
+&nbsp;&nbsp;
+<a href="https://github.com/ArnaVkk/Autonomous-Driving">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=Autonomous-Driving&theme=tokyonight&hide_border=true&border_radius=15" />
+</a>
+
+<br/>
+
+<a href="https://github.com/ArnaVkk/india-flood-watch-now">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=india-flood-watch-now&theme=tokyonight&hide_border=true&border_radius=15" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/ArnaVkk/Welcome-to-Sweet-Shop">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=Welcome-to-Sweet-Shop&theme=tokyonight&hide_border=true&border_radius=15" />
+</a>
 
 </div>
 
-### 🍛🍔 Smart Ingredient Identifier — Universal Food Recipe Generator
+---
+
+### 1️⃣ 🍛🍔 Food Recipe Generator — AI-Powered Food Recognition
 
 > 📸 **Upload a food photo → AI identifies the dish → Get a full recipe instantly!**
 
-An AI-powered web application that recognizes **181 food dishes** (80 Indian 🇮🇳 + 101 International 🌍) from images using deep learning, and generates detailed recipes with ingredients and step-by-step cooking instructions.
+An AI-powered web app that recognizes **181 food dishes** (80 Indian 🇮🇳 + 101 International 🌍) from images and generates detailed recipes with ingredients and step-by-step cooking instructions.
 
-#### ✨ What It Does
-- ✅ **Dish name** with confidence score
-- ✅ **Cuisine type** (Indian / International)
-- ✅ **Full ingredient list**
-- ✅ **Step-by-step cooking instructions**
+| Detail | Info |
+|--------|------|
+| 🧠 Model | EfficientNet-B0 (Transfer Learning) |
+| 🎯 Accuracy | **84.8%** on 181 categories |
+| 📊 Parameters | ~5.3 million |
+| 🖼️ Input | 224 × 224 pixels |
+| 📈 Training Data | 113,900 images |
+| 🌐 Interface | Gradio Web App |
+| 📦 Deployment Size | ~27 MB |
 
-#### 📊 Model Details
+**Cuisines:** 🇮🇳 80 Indian dishes (Biryani, Butter Chicken, Dosa, Naan, Samosa & more) + 🌍 101 International dishes (Pizza, Sushi, Tacos, Ramen, Steak & more)
 
-| Property | Value |
-|----------|-------|
-| Architecture | EfficientNet-B0 (Transfer Learning) |
-| Parameters | ~5.3 million |
-| Input Size | 224 × 224 pixels |
-| Training Accuracy | 87.2% |
-| Validation Accuracy | **84.8%** |
-| Overfitting Gap | +2.5% (Excellent) |
-| Training Images | 113,900 |
-| Total Categories | 181 |
+**Tech:** `Python` `PyTorch` `EfficientNet-B0` `Gradio` `Pillow` `TorchVision`
 
-#### 🍽️ Supported Cuisines
-
-| Cuisine | Count | Examples |
-|---------|-------|----------|
-| 🇮🇳 Indian | **80 dishes** | Biryani, Butter Chicken, Dosa, Naan, Samosa, Dal Makhani, Gulab Jamun, Palak Paneer, Jalebi & more |
-| 🌍 International | **101 dishes** | Pizza, Sushi, Hamburger, Tacos, Pad Thai, Ramen, Steak, Cheesecake, Tiramisu, Lasagna & more |
-
-#### 📁 Project Structure
-```
-├── FoodRecipeGenerator_Deploy/     # 🚀 Deployment-ready app
-│   ├── app.py                      # Main Gradio web application
-│   ├── requirements.txt            # Python dependencies
-│   └── model/
-│       └── best_model.pth          # Trained model (84.8% accuracy)
-│
-├── inversecooking/                 # 📚 Source code & training pipeline
-│   ├── src/                        # Core source code
-│   │   ├── model.py                # Model architecture
-│   │   ├── train_large_model.py    # Training script
-│   │   ├── data_loader.py          # Data loading utilities
-│   │   └── modules/                # Neural network modules
-│   └── data/                       # Datasets & recipe databases
-```
-
-#### 💻 System Requirements
-
-| Requirement | Minimum | Recommended |
-|------------|---------|-------------|
-| Python | 3.8+ | 3.10+ |
-| RAM | 4 GB | 8 GB |
-| GPU | Not required (CPU works) | NVIDIA with CUDA |
-| Disk Space | ~500 MB | ~500 MB |
-
-#### 🚀 Quick Start
 ```bash
 git clone https://github.com/ArnaVkk/Food-Recipe-Generator.git
-cd Food-Recipe-Generator
-pip install -r FoodRecipeGenerator_Deploy/requirements.txt
-cd FoodRecipeGenerator_Deploy && python app.py
-# Open http://127.0.0.1:7860 in your browser!
+cd Food-Recipe-Generator/FoodRecipeGenerator_Deploy && pip install -r requirements.txt && python app.py
+```
+
+---
+
+### 2️⃣ 🚗 Autonomous Driving — Behavioral Cloning
+
+> 🎮 **Self-driving car simulation using deep learning behavioral cloning**
+
+A deep learning project that trains a neural network to autonomously steer a car by learning from human driving behavior. The model learns to map camera images directly to steering commands.
+
+| Detail | Info |
+|--------|------|
+| 🧠 Approach | Behavioral Cloning |
+| 🎯 Task | End-to-end autonomous steering |
+| 📊 Input | Dashboard camera images |
+| 🏎️ Output | Steering angle predictions |
+| 🔧 Framework | Python + Deep Learning |
+
+**Tech:** `Python` `Deep Learning` `Behavioral Cloning` `Computer Vision` `PowerShell` `Shell`
+
+```bash
+git clone https://github.com/ArnaVkk/Autonomous-Driving.git
+```
+
+---
+
+### 3️⃣ 🌊 India Flood Watch — Real-Time Flood Monitoring
+
+> 🚨 **Real-time flood monitoring and alert system for India**
+
+A full-stack web application that monitors flood conditions across India and provides real-time alerts. Built with a modern TypeScript stack for reliable, responsive flood tracking.
+
+| Detail | Info |
+|--------|------|
+| 🌍 Coverage | India-wide flood monitoring |
+| ⚡ Alerts | Real-time notification system |
+| 📱 Frontend | Responsive web interface |
+| 🐳 Deployment | Docker-ready |
+| 🔧 Architecture | Full-stack web application |
+
+**Tech:** `TypeScript` `JavaScript` `HTML` `CSS` `Docker`
+
+```bash
+git clone https://github.com/ArnaVkk/india-flood-watch-now.git
+```
+
+---
+
+### 4️⃣ 🍬 Welcome to Sweet Shop — MERN Stack Management System
+
+> 🏪 **Full-stack sweet shop management with auth, inventory & shopping**
+
+A MERN stack application for managing a sweet shop with user authentication (JWT), inventory management, and shopping functionality. Built with TDD approach featuring 35+ comprehensive tests.
+
+| Detail | Info |
+|--------|------|
+| 🔐 Auth | JWT-based with role-based access control |
+| 🛒 Features | Browse, search, filter & purchase sweets |
+| 🧑‍💼 Admin | Add, edit, delete & restock inventory |
+| 🧪 Tests | 35+ tests (Jest + Supertest) |
+| 📱 Responsive | Mobile & desktop friendly |
+
+**Tech:** `JavaScript` `React 18` `Node.js` `Express.js` `MongoDB` `Tailwind CSS` `JWT` `Jest`
+
+```bash
+git clone https://github.com/ArnaVkk/Welcome-to-Sweet-Shop.git
+cd Welcome-to-Sweet-Shop && npm install
 ```
 
 ---
