@@ -48,16 +48,70 @@ me.say_hi()
 
 ### 🍛🍔 Smart Ingredient Identifier — Universal Food Recipe Generator
 
-> 📸 Upload a food photo → AI identifies the dish → Get a full recipe instantly!
+> 📸 **Upload a food photo → AI identifies the dish → Get a full recipe instantly!**
 
-| Feature | Details |
-|---------|---------|
-| 🎯 Accuracy | **84.8%** on 181 food categories |
-| 🧠 Model | EfficientNet-B0 with Transfer Learning |
-| 🍛 Indian | **80 dishes** — Biryani, Butter Chicken, Dosa & more |
-| 🍔 International | **101 dishes** — Pizza, Sushi, Tacos & more |
-| 🌐 Interface | Gradio Web App — clean & mobile-friendly |
-| 📦 Size | Lightweight ~27 MB deployment |
+An AI-powered web application that recognizes **181 food dishes** (80 Indian 🇮🇳 + 101 International 🌍) from images using deep learning, and generates detailed recipes with ingredients and step-by-step cooking instructions.
+
+#### ✨ What It Does
+- ✅ **Dish name** with confidence score
+- ✅ **Cuisine type** (Indian / International)
+- ✅ **Full ingredient list**
+- ✅ **Step-by-step cooking instructions**
+
+#### 📊 Model Details
+
+| Property | Value |
+|----------|-------|
+| Architecture | EfficientNet-B0 (Transfer Learning) |
+| Parameters | ~5.3 million |
+| Input Size | 224 × 224 pixels |
+| Training Accuracy | 87.2% |
+| Validation Accuracy | **84.8%** |
+| Overfitting Gap | +2.5% (Excellent) |
+| Training Images | 113,900 |
+| Total Categories | 181 |
+
+#### 🍽️ Supported Cuisines
+
+| Cuisine | Count | Examples |
+|---------|-------|----------|
+| 🇮🇳 Indian | **80 dishes** | Biryani, Butter Chicken, Dosa, Naan, Samosa, Dal Makhani, Gulab Jamun, Palak Paneer, Jalebi & more |
+| 🌍 International | **101 dishes** | Pizza, Sushi, Hamburger, Tacos, Pad Thai, Ramen, Steak, Cheesecake, Tiramisu, Lasagna & more |
+
+#### 📁 Project Structure
+```
+├── FoodRecipeGenerator_Deploy/     # 🚀 Deployment-ready app
+│   ├── app.py                      # Main Gradio web application
+│   ├── requirements.txt            # Python dependencies
+│   └── model/
+│       └── best_model.pth          # Trained model (84.8% accuracy)
+│
+├── inversecooking/                 # 📚 Source code & training pipeline
+│   ├── src/                        # Core source code
+│   │   ├── model.py                # Model architecture
+│   │   ├── train_large_model.py    # Training script
+│   │   ├── data_loader.py          # Data loading utilities
+│   │   └── modules/                # Neural network modules
+│   └── data/                       # Datasets & recipe databases
+```
+
+#### 💻 System Requirements
+
+| Requirement | Minimum | Recommended |
+|------------|---------|-------------|
+| Python | 3.8+ | 3.10+ |
+| RAM | 4 GB | 8 GB |
+| GPU | Not required (CPU works) | NVIDIA with CUDA |
+| Disk Space | ~500 MB | ~500 MB |
+
+#### 🚀 Quick Start
+```bash
+git clone https://github.com/ArnaVkk/Food-Recipe-Generator.git
+cd Food-Recipe-Generator
+pip install -r FoodRecipeGenerator_Deploy/requirements.txt
+cd FoodRecipeGenerator_Deploy && python app.py
+# Open http://127.0.0.1:7860 in your browser!
+```
 
 ---
 
