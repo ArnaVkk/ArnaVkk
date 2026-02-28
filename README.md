@@ -40,23 +40,13 @@ me.say_hi()
 
 <div align="center">
 
-<a href="https://github.com/ArnaVkk/Food-Recipe-Generator">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=Food-Recipe-Generator&theme=tokyonight&hide_border=true&border_radius=15" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/ArnaVkk/Autonomous-Driving">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=Autonomous-Driving&theme=tokyonight&hide_border=true&border_radius=15" />
-</a>
+[![Food-Recipe-Generator](https://img.shields.io/badge/🍛_Food_Recipe_Generator-PyTorch_|_Gradio_|_84.8%25_Accuracy-EE4C2C?style=for-the-badge)](https://github.com/ArnaVkk/Food-Recipe-Generator)
 
-<br/>
+[![Autonomous-Driving](https://img.shields.io/badge/🚗_Autonomous_Driving-Python_|_Behavioral_Cloning-3776AB?style=for-the-badge)](https://github.com/ArnaVkk/Autonomous-Driving)
 
-<a href="https://github.com/ArnaVkk/india-flood-watch-now">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=india-flood-watch-now&theme=tokyonight&hide_border=true&border_radius=15" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/ArnaVkk/Welcome-to-Sweet-Shop">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArnaVkk&repo=Welcome-to-Sweet-Shop&theme=tokyonight&hide_border=true&border_radius=15" />
-</a>
+[![India-Flood-Watch](https://img.shields.io/badge/🌊_India_Flood_Watch-TypeScript_|_Docker_|_Real--Time-3178C6?style=for-the-badge)](https://github.com/ArnaVkk/india-flood-watch-now)
+
+[![Sweet-Shop](https://img.shields.io/badge/🍬_Sweet_Shop-MERN_Stack_|_JWT_|_TDD-F7DF1E?style=for-the-badge)](https://github.com/ArnaVkk/Welcome-to-Sweet-Shop)
 
 </div>
 
@@ -183,33 +173,23 @@ cd Welcome-to-Sweet-Shop && npm install
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ArnaVkk&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&count_private=true" height="180"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArnaVkk&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&count_private=true" height="180"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArnaVkk&layout=compact&theme=tokyonight&hide_border=true&border_radius=15&langs_count=8" height="180"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ArnaVkk&layout=compact&theme=tokyonight&hide_border=true&border_radius=15&langs_count=8" height="180"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ArnaVkk&theme=tokyonight&hide_border=true&border_radius=15" height="180"/>
+<img src="https://streak-stats.demolab.com/?user=ArnaVkk&theme=tokyonight&hide_border=true&border_radius=15" height="180"/>
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 📈 Contribution Graph
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ArnaVkk&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ArnaVkk/ArnaVkk/output/github-snake-dark.svg" alt="Snake animation" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ArnaVkk&theme=tokyo-night&hide_border=true&radius=16" width="100%"/>
 
 </div>
 
