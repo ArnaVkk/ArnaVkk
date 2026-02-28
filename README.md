@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FC466B,100:3F5EFB&height=220&section=header&text=Hey%20there!%20I'm%20Arna%20👋&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=fadeIn&desc=AI%20%2F%20Deep%20Learning%20Enthusiast%20%7C%20Building%20Cool%20Stuff%20with%20Code&descSize=18&descAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FC466B,100:3F5EFB&height=220&section=header&text=Hey%20there!%20I'm%20Arnav%20👋&fontSize=42&fontColor=ffffff&fontAlignY=35&animation=fadeIn&desc=AI%20%2F%20Deep%20Learning%20Enthusiast%20%7C%20Building%20Cool%20Stuff%20with%20Code&descSize=18&descAlignY=55" width="100%"/>
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3F5EFB&center=true&vCenter=true&random=false&width=600&lines=Deep+Learning+%26+Computer+Vision+%F0%9F%A7%A0;PyTorch+Developer+%F0%9F%94%A5;AI-Powered+App+Builder+%F0%9F%9A%80;Always+Learning%2C+Always+Building+%F0%9F%92%A1" alt="Typing SVG" /></a>
@@ -15,7 +15,7 @@
 ```python
 class ArnaVkk:
     def __init__(self):
-        self.name = "Arna"
+        self.name = "Arnav"
         self.role = "AI / ML Developer"
         self.interests = ["Deep Learning", "Computer Vision", "Web Apps"]
         self.currently_building = "🍛 AI Food Recipe Generator"
